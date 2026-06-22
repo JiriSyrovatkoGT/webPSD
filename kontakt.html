@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt — Pluk Šťastných Dechařů</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="img/icon/favicon_psd.png">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">
+      <img src="img/icon/logo_psd.png" alt="Pluk Šťastných Dechařů" class="brand-logo">
+      <span>Pluk Šťastných Dechařů<small>Dechový orchestr ZUŠ Lounských</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Otevřít menu" aria-expanded="false">☰</button>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Domů</a></li>
+        <li><a href="koncerty.html">Koncerty</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="podpora.html">Podpora</a></li>
+        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="page-header">
+  <h1>Kontakt</h1>
+  <p>Máte dotaz, chcete nás pozvat na akci, nebo se k nám přidat?</p>
+</div>
+
+<main>
+  <section>
+    <div class="container">
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>E-mail</h3>
+          <p><a href="mailto:plukstastnychdecharu@gmail.com">
+plukstastnychdecharu@gmail.com</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>Telefon</h3>
+          <p><a href="tel:+420000000000">[+420 000 000 000]</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>Adresa</h3>
+          <p><a href="https://maps.app.goo.gl/UDyxFbrJ6MwvrdDCA" target="_blank" rel="noopener">ZUŠ Lounských<br>Lounských 129/4
+140 00 Praha 4 – Nusle</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>Chcete hrát s námi?</h3>
+          <p>Napište nám — rádi přivítáme nové hráče do našich řad!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Pluk Šťastných Dechařů</h4>
+        <p>Dechový orchestr vedený v rámci ZUŠ Lounských.</p>
+        <img src="img/icon/logo_psd.png" alt="Pluk Šťastných Dechařů" class="brand-logo">
+      </div>
+      <div>
+        <h4>Navigace</h4>
+        <ul>
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="koncerty.html">Koncerty</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="podpora.html">Podpora</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Odkazy</h4>
+        <ul>
+          <li><a href="https://www.zuslounskych.cz" target="_blank" rel="noopener">ZUŠ Lounských</a></li>
+          <li><a href="https://www.instagram.com/plukstastnychdecharu" target="_blank" rel="noopener">Instagram orchestru</a></li>
+          <li><a href="https://www.facebook.com/stastnypluk" target="_blank" rel="noopener">Facebook orchestru</a></li>
+          <li><a href="https://www.youtube.com/@plukstastnychdecharu8950" target="_blank" rel="noopener">YouTube orchestru</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sledujte nás</h4>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/plukstastnychdecharu" aria-label="Instagram" target="_blank" rel="noopener"><img src="img/icon/socials/InstagramIcon.png" alt="Instagram"></a>
+          <a href="https://www.facebook.com/stastnypluk" aria-label="Facebook" target="_blank" rel="noopener"><img src="img/icon/socials/FacebookIcon.png" alt="Facebook"></a>
+          <a href="https://www.youtube.com/@plukstastnychdecharu8950" aria-label="YouTube" target="_blank" rel="noopener"><img src="img/icon/socials/YoutubeIcon.png" alt="YouTube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Pluk Šťastných Dechařů - všechna práva vyhrazena.
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
