@@ -813,6 +813,10 @@ form.contact-form textarea:focus {
   .contact-grid {
     grid-template-columns: 1fr;
   }
+  .contact-card {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
 
 /* ---------------- Footer ---------------- */
